@@ -1,0 +1,118 @@
+ <html>
+	<head>
+		<title>Bike JoanAdri</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:550px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			form {
+	float:right;
+	}
+		</style>
+	</head>
+	<body>
+	<br>
+	<br>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="web.html">Home</a></li>
+				<li><a>Cataleg</a>
+					<ul>
+						<li><a href="muntanya.html">Muntanya</a></li>
+						<li><a href="urbanes.html">Urbanes</a></li>
+						<li><a href="carretera.html">Carretera</a></li>
+						<li><a href="passeig.html">Passeig</a></li>
+						<li><a href="bmx.html">BMX</a></li>
+					</ul>
+				</li>
+				<li><a>Peces</a>
+					<ul>
+						<li><a href="manillars.html">Manillars</a></li>
+						<li><a href="rodes.html">Rodes</a>
+							<ul>
+								<li><a href="pinyons.html">Pinyons</a></li>
+								<li><a href="llantes.html">Llantes</a></li>
+								<li><a href="pneumatics.html">Pneumatics</a></li>
+								<li><a href="cameres.html">Cameres</a></li>
+							</ul>
+						</li>
+						<li><a href="pedals.html">Pedals</a></li>
+						<li><a>Frens</a>
+						<ul>
+								<li><a href="manetes.html">Manetes</a></li>
+								<li><a href="discos.html">Discos</a></li>
+								<li><a href="pastilles.html">Pastilles</a></li>
+								<li><a href="cables.html">Cables</a></li>
+								<li><a href="fundes.html">Fundes</a></li>
+						</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="track.html">Registrar track</a></li>
+				<li><a href="contacte.html">Contacte</a></li>
+				<li><a href="registrat.html">Registra't</a></li>
+			</ul>
+		</div>
+		
+	<form id="formulari" action="maneja_formulario.php" method="post">
+  <fieldset>
+    <legend>Connecta't</legend>
+    Usuari<br/>
+    <input type="text" name="user" id="user" value="" maxlength="10" />
+    <br/>
+    Contrasenya<br/>
+    <input type="password" name="password" id="password" value="" maxlength="10" />
+    <br/>
+	<br/>
+    <input type="submit" id="login" value="Log in" /> 
+</form>
+
+	</body>
+</html>

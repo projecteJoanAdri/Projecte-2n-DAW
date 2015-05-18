@@ -1,0 +1,174 @@
+.fleft {float:left}
+.fright {float:right}
+.fclear {clear:both}
+.fcenter {float:none;text-align:center}
+a {color:#3cb0f2}
+body {background-color:#d3d2d2;margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#000}
+#top-background {background-color:#ececec}
+#top-wrapper {width:960px;margin:0 auto}
+#banner {background:url(../images/banner-img.jpg) top center no-repeat;width:963px;height:255px}
+#banner-content {width:350px;padding-top:50px;padding-left:60px;font-size:16px;color:#fff}
+#logo {margin-bottom:10px}
+.more-btn {text-align:right;margin-top:10px;margin-right:10px}
+#wrapper {width:960px;margin:0 auto;background:#fff;margin-top:20px}
+#top-box {background:url(images/top-box.png) top center no-repeat;width:960px;height:18px}
+#bottom-box {background:url(images/bottom-box.png) top center no-repeat;width:960px;height:18px}
+#middle-box {padding:0 20px 0px 20px}
+
+.title {font-size:20px;color:#3cb0f2;font-weight:bold;margin-bottom:10px}
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+
+#footer {width:915px;margin:0 auto;font-size:12px;color:#585858;padding:10px}
+#footer div {padding:0 15px}
+
+ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			form {
+	float:right;
+	}
+#contact_form{
+position:relative;
+
+
+
+}
+
+#footer{
+padding-top: 40px;
+  padding-bottom: 70px;
+  margin-top: 800px;
+  border-top: 1px solid #eee;
+}
+
+
+
+
+.contact-form {
+	padding-top: 40px;
+  padding-bottom: 70px;
+  margin-top: 800px;
+  border-top: 1px solid #eee;
+
+}
+
+/* Form input box style */
+.form-input {
+	display: block;
+	width: 200px;
+	height: 15px;
+	margin-bottom: 15px;
+	color: #000;
+	background-color: #FF9;
+	border: 1px solid #999;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	behavior: url(PIE.htc);
+	font-family: "Century Gothic";
+	font-size: 14px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+
+
+
+
+.form-input.invalid {
+	border: 1px solid #e00;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.7), 0 0 1px #e00;
+}
+
+/* Form submit button */
+.form-btn {
+	padding: 0 15px;
+	height: 30px;
+	font: bold 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	border: 1px solid #0d3d6a;
+	outline: none;
+	position: relative;
+	background-color: #1d83e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1d83e2), to(#0d3d6a)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #1d83e2, #0d3d6a); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #1d83e2, #0d3d6a); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #1d83e2, #0d3d6a); /* IE10 */
+	background-image:      -o-linear-gradient(top, #1d83e2, #0d3d6a); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #1d83e2, #0d3d6a);
+	-pie-background:          linear-gradient(top, #1d83e2, #0d3d6a); /* IE6-IE9 */
+	-moz-box-shadow:    inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	box-shadow:         inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.7);
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+	behavior: url(PIE.htc);
+}
+
+.form-btn:active {
+	border: 1px solid #1d83e2;
+	background-color: #0d3d6a;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#0d3d6a), to(#1d83e2)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #0d3d6a, #1d83e2); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #0d3d6a, #1d83e2); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #0d3d6a, #1d83e2); /* IE10 */
+	background-image:      -o-linear-gradient(top, #0d3d6a, #1d83e2); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #0d3d6a, #1d83e2);
+	-pie-background:          linear-gradient(top, #0d3d6a, #1d83e2); /* IE6-IE9 */
+	-moz-box-shadow:    inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+
+	box-shadow:         inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
+	behavior: url(PIE.htc);
+}
+
+
+
+
+	
