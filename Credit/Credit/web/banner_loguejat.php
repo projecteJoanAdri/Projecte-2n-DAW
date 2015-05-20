@@ -4,7 +4,8 @@
 require "connexio.php";
 require "login.php";
 
-echo "Benvigut " . $usuari_entrat; 
+echo $mostrarUser;
+
 
 ?> 
 <!-- banner -->

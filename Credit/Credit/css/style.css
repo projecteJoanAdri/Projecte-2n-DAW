@@ -63,7 +63,9 @@ ul, ol {
 	float:right;
 	}
 #contact_form{
-position:relative;
+position:absolute;
+margin-top: 100px;
+margin-left: 100px;
 
 
 
@@ -167,6 +169,26 @@ padding-top: 40px;
 	box-shadow:         inset 0 0 2px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(255, 255, 255, 0.1);
 	behavior: url(PIE.htc);
 }
+
+#benvingut {
+	float: right;
+}
+
+.track{
+position: absolute;
+margin: 100px;
+margin-top: 350px
+}
+
+.mapa{
+position: absolute;
+margin: 220px;
+margin-left: 150px;
+margin-top; 600px;
+
+}
+
+
 
 
 

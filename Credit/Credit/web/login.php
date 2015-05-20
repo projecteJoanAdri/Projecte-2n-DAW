@@ -13,12 +13,12 @@ if (isset($_POST['login']))
 	
 	if ($user_ok->num_rows>0 && $pass_ok->num_rows>0)
 	{
-		header("Location: banner_loguejat.php");
+		echo "Benvingut " . $_POST['usuari'];
 		
 	}
 	else
 	{
-		header("Location: index.php");
+		echo "Error!";
 		
 	}
 }
