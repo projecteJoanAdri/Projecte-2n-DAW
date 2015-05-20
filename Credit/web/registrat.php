@@ -17,7 +17,7 @@
       <input type="text" name="usuari" class="form-input" required/><br> <br> 
 
 	<label for="contrasenya">Contrasenya</label>
-      <input type="text" name="contrasenya" class="form-input" required/><br> <br>   
+      <input type="password" name="contrasenya" class="form-input" required/><br> <br>   
       
       <label for="email">Email</label>
       <input type="email" name="email" class="form-input" /><br> <br> 

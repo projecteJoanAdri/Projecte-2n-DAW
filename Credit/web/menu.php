@@ -45,6 +45,9 @@
 				<li><a href="track.php">Registrar track</a></li>
 				<li><a href="contacte.php">Contacte</a></li>
 				<li><a href="registrat.php">Registra't</a></li>
+				<li><a href="iniciaSessio.php">Inicia sessió</a></li>
+				<li><a href="foro.php">Foro</a></li>
+				<li><a href="carro.php">Carrito</a></li>
 			</ul>
 			<div style="clear:both;"></div>
 		</div>
