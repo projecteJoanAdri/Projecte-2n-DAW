@@ -11,10 +11,9 @@ $row=mysql_fetch_assoc(mysql_query("SELECT * FROM carrito WHERE img='".$img."'")
 
 if(!$row) die("There is no such product!");
 
-echo '<strong>'.$row['name'].'</strong>
+echo '<strong>'.$row['nom'].'</strong>
 
-<p class="descr">'.$row['description'].'</p>
 
-<strong>Valor: $'.$row['price'].'</strong>
+<strong>Valor: $'.$row['preu'].'</strong>'
  
 ?>

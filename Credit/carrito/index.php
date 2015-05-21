@@ -9,7 +9,7 @@ require "connect.php";
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>carrito compras php mysql css ajax | markapp</title>
+<title>CARRITO BIKEJOANADRI</title>
 
 <link rel="stylesheet" type="text/css" href="estilos.css" />
 
@@ -36,7 +36,7 @@ require "connect.php";
 <div id="main-container">
 
 	<div class="tutorialzine">
-    <h1>Carro de compras con php, mysql, css3 y ajax</h1>
+    <h1>CARRITO BIKEJOANADRI</h1>
     <br/><br/><br/><br/><br/><br/>
     
     </div>
@@ -45,7 +45,7 @@ require "connect.php";
     <div class="container primero">
     
     	<span class="top-label">
-            <span class="label-txt">Canasta</span>
+            <span class="label-txt">Cistell</span>
         </span>
         
         <div class="content-area">
@@ -57,8 +57,8 @@ require "connect.php";
 				$result = mysql_query("SELECT * FROM carrito");
 				while($row=mysql_fetch_assoc($result))
 				{
-					echo '<div class="product"><img src="img/products/'.$row['img'].'" alt="'.htmlspecialchars($row['name']).'" width="128" height="128" class="pngfix" />
-                            <h2>'.$row['name'].'</h2><h2>'.$row['price'].'</h2> 
+					echo '<div class="product"><img src="img/products/'.$row['img'].'" alt="'.htmlspecialchars($row['nom']).'" width="128" height="128" class="pngfix" />
+                            <h2>'.$row['nom'].'</h2><h2>'.$row['preu'].'</h2> 
                     </div>';
 				}
 
@@ -114,10 +114,7 @@ require "connect.php";
 
     </div>
 
-	<div class="tutorial-info">	
-       <a href="http://markapp.com.co/tuto/carrito/">Tutoriales markapp</a>,Fernando Ortiz.</div>
 
-</div>
 
 </body>
 </html>

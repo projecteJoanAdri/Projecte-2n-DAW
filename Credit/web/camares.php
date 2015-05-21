@@ -18,11 +18,6 @@
 <td><span class="price" style="display: inline;">3,50 €</span><br /></td>			
 </tr>
 <tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
-<tr>
 <td><h3>Camara Kenda 700x20/23 48 mm OEM</h3></td>
 <td><h3>Camara Kenda 700x20/23 60 mm OEM</h3></td>
 <td><h3>Camara Deestone 700x20/23 60 mm﻿</h3></td>
@@ -36,11 +31,6 @@
 <td><span class="price" style="display: inline;">3,75 €</span><br /></td>
 <td><span class="price" style="display: inline;">4,00 €</span><br /></td>
 <td><span class="price" style="display: inline;">4,00 €</span><br /></td>
-</tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
 </tr>
 <tr>
 <td><h3>Camara Kenda 700x20/23 80 mm</h3></td>
@@ -59,8 +49,5 @@
 <td><span class="price" style="display: inline;">4,00 €</span><br /></td>
 <td><span class="price" style="display: inline;">4,95 €</span><br /></td>
 </tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
 </table>
 <?php include("footer.php") ?>

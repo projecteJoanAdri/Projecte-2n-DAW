@@ -16,30 +16,18 @@
 <td><span class="price" style="display: inline;">1,00 €</span><br /></td>
 <td><span class="price" style="display: inline;">1,50 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Cable de freno TOPE PERA</h3></td>
-<td><h3>Camara Kenda 700x20/23 60 mm OEM</h3></td>
-<td><h3>Camara Deestone 700x20/23 60 mm﻿</h3></td>
 </tr>
 <tr>
 <td><img src="http://www.fixiedreams.com/1471-home/cable-de-freno-tope-pera.jpg" alt="Cable de freno TOPE PERA"  width="220" height="200" /></td>
-<td><img src="http://www.fixiedreams.com/224-2725-home/cable-de-freno-unex-mtb-.jpg" alt="Cable de freno UNEX MTB "  width="220" height="200" /></td>
 </tr>
 <tr>
-<td><span class="price" style="display: inline;">1,50 €</span><br /></td>
-<td><span class="price" style="display: inline;">1,00 €</span><br /></td>
+<td><span class="price" style="display: inline;">1,50 €</span><br /></td> 	
 
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
 
-</tr>
 
 </table>
 <?php include("footer.php") ?>

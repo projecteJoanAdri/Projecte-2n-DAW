@@ -17,7 +17,7 @@ if(!$_POST)
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>carrito! | markapp</title>
+<title>Carrito</title>
 
 <link rel="stylesheet" type="text/css" href="estilos.css" />
 
@@ -41,7 +41,7 @@ if(!$_POST)
             <span class="label-txt">Factura</span>
         </span>
         <span class="top-label">
-            <span class="label-txt"><a href="index.php">Regresar</a></span>
+            <span class="label-txt"><a href="index.php">Retornar</a></span>
         </span>
         
         <div class="content-area">
@@ -65,25 +65,27 @@ if(!$_POST)
 				
 				if(!mysql_num_rows($result))
 				{
-					echo '<h1>Hay un error en la compra!</h1>';
+					echo '<h1>Hi ha un error a la compra!</h1>';
 				}
 				else
 				{ 
-					echo '<h1>Tu Compra:</h1>';
+					echo '<h1>La teva compra:</h1>';
 					
 					while($row=mysql_fetch_assoc($result))
 					{
-						echo '<h2>'.$cnt[$row['id']].' x '.$row['name']." = ".$row['price'].'</h2>';
+						echo '<h2>'.$cnt[$row['id']].' x '.$row['nom']." = ".$row['preu'].'</h2>';
 						
-						@$total += $cnt[$row['id']]*$row['price'];
+						@$total += $cnt[$row['id']]*$row['preu'];
 					}
 		
-					echo '<h1>Total: $'.$total.'</h1>';
+					echo '<h1>Total: '.$total.'€</h1>';
 				}
 				?>
+				
                 
                 
        	        <div class="clear"></div>
+				<input type="Button" onclick="window.location.href='pagament.html'" value="Pagar"/>
             </div>
 
         </div>

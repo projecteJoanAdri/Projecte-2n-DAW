@@ -16,11 +16,7 @@
 <td><span class="price" style="display: inline;">6,00 €</span><br /></td>
 <td><span class="price" style="display: inline;">7,95 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Maneta de freno Promax Fixie 31,8-23,8 mm.</h3></td>
 <td><h3>Maneta de freno Promax Fixie 23,8-22,2 mm.</h3></td>
@@ -37,11 +33,7 @@
 <td><span class="price" style="display: inline;">9,84 €</span><br /></td>
 
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 
 </table>
 <?php include("footer.php") ?>

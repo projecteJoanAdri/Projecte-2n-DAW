@@ -17,11 +17,7 @@
 <td><span class="price" style="display: inline;">395,00 €</span></td>
 <td><span class="price" style="display: inline;">395,50 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Fixiedreams_1</h3></td>
 <td><h3>Fixiedreams_2</h3></td>
@@ -37,10 +33,6 @@
 <td><span class="price" style="display: inline;">595,00 €</span><br /></td>
 <td><span class="price" style="display: inline;">270,00 €</span><br /></td>
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 </table>
 <?php include("footer.php") ?>

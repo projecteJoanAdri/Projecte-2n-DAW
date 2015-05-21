@@ -16,11 +16,7 @@
 <td><span class="price" style="display: inline;">2,95 €</span><br /></td>
 <td><span class="price" style="display: inline;">5,95 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Zapatas de freno para V-Brake 72 mm</h3></td>
 </tr>
@@ -30,8 +26,6 @@
 <tr>
 <td><span class="price" style="display: inline;">10,20 €</span><br /></td>
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 </table>
 <?php include("footer.php") ?>

@@ -1,6 +1,6 @@
 <?php
 
-if(!defined('INCLUDE_CHECK')) die('error en el directorio');
+if(!defined('INCLUDE_CHECK')) die('error al directori');
 
 
 /* Database config */
@@ -14,7 +14,7 @@ $db_database	= 'carrito';
 
 
 
-$link = mysql_connect($db_host,$db_user,$db_pass) or die('no hay conexion a la base de datos');
+$link = mysql_connect($db_host,$db_user,$db_pass) or die('no hi ha connexio a la base de dades');
 
 mysql_select_db($db_database,$link);
 mysql_query("SET names UTF8");

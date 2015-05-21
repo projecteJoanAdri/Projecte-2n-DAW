@@ -16,11 +16,7 @@
 <td><span class="price" style="display: inline;">19,95 €</span><br /></td>
 <td><span class="price" style="display: inline;">24,50 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Llanta Origin8 42 mm Banda frenado CNC</h3></td>
 <td><h3>Llanta Origin8 42 mm. 36H</h3></td>
@@ -36,11 +32,6 @@
 <td><span class="price" style="display: inline;">24,95 €</span><br /></td>
 <td><span class="price" style="display: inline;">30,00 €</span><br /></td>
 
-</tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
 </tr>
 
 </table>

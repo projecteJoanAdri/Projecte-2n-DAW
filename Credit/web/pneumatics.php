@@ -16,11 +16,7 @@
 <td><span class="price" style="display: inline;">9,00 €</span><br /></td>	
 <td><span class="price" style="display: inline;">8,95 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Cubierta Rubena V80 Syrinx 26x1,25</h3></td>
 <td><h3>Cubierta Rubena V66 Flash 26x1,5</h3></td>
@@ -36,10 +32,6 @@
 <td><span class="price" style="display: inline;">8,95 €</span><br /></td>
 <td><span class="price" style="display: inline;">9,95 €</span><br /></td>
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 </table>
 <?php include("footer.php") ?>

@@ -16,11 +16,7 @@
 <td><span class="price" style="display: inline;">1,50 €</span><br /></td>	
 <td><span class="price" style="display: inline;">1,95 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Puentes de freno V-Brake 110mm</h3></td>
 
@@ -33,10 +29,7 @@
 <td><span class="price" style="display: inline;">7.95 €</span><br /></td>
 
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
 
-</tr>
 </table>
 <?php include("footer.php") ?>
 

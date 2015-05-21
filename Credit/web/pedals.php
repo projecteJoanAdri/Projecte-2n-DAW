@@ -16,11 +16,7 @@
 <td><span class="price" style="display: inline;">7,95 €</span><br /></td>
 <td><span class="price" style="display: inline;">5,95 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Pedal clasicos Union Sport colores</h3></td>
 <td><h3>Juego pedales trekking aluminio-goma</h3></td>
@@ -36,11 +32,7 @@
 <td><span class="price" style="display: inline;">9,00 €</span><br /></td>
 <td><span class="price" style="display: inline;">9,00 €</span><br /></td>
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 </table>
 <?php include("footer.php") ?>
 

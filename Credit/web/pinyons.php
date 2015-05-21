@@ -16,11 +16,7 @@
 <td><span class="price" style="display: inline;">4,50 €</span><br /></td>	
 <td><span class="price" style="display: inline;">5,95 €</span><br /></td>			
 </tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-</tr>
+
 <tr>
 <td><h3>Piñon libre reforzado</h3></td>
 <td><h3>Piñon libre cromado</h3></td>
@@ -35,11 +31,6 @@
 <td><span class="price" style="display: inline;">7.95 €</span><br /></td>
 <td><span class="price" style="display: inline;">6,95 €</span><br /></td>
 <td><span class="price" style="display: inline;">10,95 €</span><br /></td>
-</tr>
-<tr>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
-<td><input type="button" name="Comprar" value="Comprar"></input></td>
 </tr>
 </table>
 <?php include("footer.php") ?>

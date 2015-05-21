@@ -1,5 +1,5 @@
 var purchased=new Array();
-var totalprice=0;
+var totalpreu=0;
 
 $(document).ready(function(){
 	
@@ -89,7 +89,7 @@ function addlist(param)
 				
 			if(!check)
 			{
-				purchased.push({id:msg.id,cnt:1,price:msg.price});
+				purchased.push({id:msg.id,cnt:1,preu:msg.preu});
 			}
 			else
 			{
@@ -99,7 +99,7 @@ function addlist(param)
 				$('#'+msg.id+'_cnt').val(purchased[i].cnt);
 			}
 			
-			totalprice+=msg.price;
+			totalpreu+=msg.preu;
 			update_total();
 
 		}
@@ -125,7 +125,7 @@ function remove(id)
 {
 	var i=findpos(id);
 
-	totalprice-=purchased[i].price*purchased[i].cnt;
+	totalpreu-=purchased[i].preu*purchased[i].cnt;
 	purchased[i].cnt = 0;
 
 	$('#table_'+id).remove();
@@ -136,7 +136,7 @@ function change(id)
 {
 	var i=findpos(id);
 	
-	totalprice+=(parseInt($('#'+id+'_cnt').val())-purchased[i].cnt)*purchased[i].price;
+	totalpreu+=(parseInt($('#'+id+'_cnt').val())-purchased[i].cnt)*purchased[i].preu;
 	
 	purchased[i].cnt=parseInt($('#'+id+'_cnt').val());
 	update_total();
@@ -144,9 +144,9 @@ function change(id)
 
 function update_total()
 {
-	if(totalprice)
+	if(totalpreu)
 	{
-		$('#total').html('total: $'+totalprice);
+		$('#total').html('total: $'+totalpreu);
 		$('a.button').css('display','block');
 	}
 	else
